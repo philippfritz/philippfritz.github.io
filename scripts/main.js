@@ -34,7 +34,7 @@ let myButton = document.querySelector('button');
 
 function setUserName() {
     const myName = prompt('Please enter your name.');
-    //localStorage.setItem('name', myName);
+    localStorage.setItem('name', myName);
     myHeading.textContent = `Click Me, ${myName}`;
   }
 
